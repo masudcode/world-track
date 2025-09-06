@@ -1,0 +1,8 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-unused-vars": "warn", // Change to "warn" or "off" to reduce strictness
+    "react/prop-types": "off", // Turn off prop-type validation if not using it
+    "react/react-in-jsx-scope": "off" // Disable the need for React import in Vite/React 17+
+  }
+}
